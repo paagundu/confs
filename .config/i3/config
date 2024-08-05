@@ -1,4 +1,4 @@
-font pango:monospace 9
+font pango:monospace 10
 
 exec --no-startup-id xcompmgr
 exec --no-startup-id $HOME/.local/bin/monset && sleep 2 && $HOME/.local/bin/setbg
@@ -89,7 +89,7 @@ bindsym Mod4+r mode "resize"
 
 bar {
 	position top
-        status_command i3status
+        status_command i3blocks
 }
 
 gaps outer 2

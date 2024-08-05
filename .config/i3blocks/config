@@ -1,0 +1,13 @@
+command="$HOME/.local/bin/$BLOCK_NAME"
+separator_block_width=20
+separator=true
+
+[sb-vol]
+interval=once
+signal=10
+
+[sb-clk]
+interval=60
+
+[sb-cal]
+interval=86400
