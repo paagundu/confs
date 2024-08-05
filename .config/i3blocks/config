@@ -2,6 +2,9 @@ command="$HOME/.local/bin/$BLOCK_NAME"
 separator_block_width=20
 separator=true
 
+[sb-pkg]
+interval=3600
+
 [sb-vol]
 interval=once
 signal=10

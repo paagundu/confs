@@ -1,0 +1,5 @@
+#!/bin/bash
+
+pkg=$(apt list --installed 2>&1 | wc -l)
+
+echo "📦 $((pkg-3))"
